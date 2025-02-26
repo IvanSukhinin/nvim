@@ -7,3 +7,5 @@ vim.keymap.set("n", "<leader>gt", "<cmd>GitConflictChooseTheirs<CR>", { desc = "
 vim.keymap.set("n", "<leader>ga", "<cmd>GitConflictChooseBoth<CR>", { desc = "Git conflict: Choose Both" })
 vim.keymap.set("n", "<leader>gn", "<cmd>GitConflictNextConflict<CR>", { desc = "Git conflict: Next Conflict" })
 vim.keymap.set("n", "<leader>gp", "<cmd>GitConflictPrevConflict<CR>", { desc = "Git conflict: Previous Conflict" })
+
+-- vim.keymap.set("n", "<leader>pa", "<cmd>AddProject<CR>", { desc = "Add project" })
